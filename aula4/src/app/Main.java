@@ -33,20 +33,26 @@ public class Main {
 		    				  + novoBanco.getBanco()
 		    				   );
 		         break;
-		    	 
-		      
-		      }
-		 Nome = mensagem.solicitarEntrada("digite o seu nome");
+		  
+   
+    case 2:
+	   Nome = mensagem.solicitarEntrada("digite o seu nome");
 		 CPF = mensagem.solicitarEntrada("digite o seu CPF");
 		 Celular = mensagem.solicitarEntrada("digite o seu Celular");
 		 Email = mensagem.solicitarEntrada("digite o seu Email");
 		 Senha = mensagem.solicitarEntrada("digite a Senha");
 		 Usuario usuario = new Usuario (Nome,CPF,Celular,Email,Senha);
 		 mensagem.mostrarMensagemDeSucesso(usuario.getUsuario());
-		 opcao = "ok";
-		} while(opcao == "ok");
-	}
+	break;
+	
+    case 3:
+    	System.exit(0);
+    	break;
+		      }
+		      
+	}while(opcaoNum == 3);
+	
+;
 
-}
-		
+	}	
 

@@ -29,12 +29,13 @@ void Autenticacao(String Email,
 }
 public static String getUsuario() {
 	return (
-		    "/nNome" + this.Nome
-			"/nCPF" + this.CPF
-			"/nCelular" + this.Celular
-			"/nEmail" + this.Email
-			"/nSenha" + this.Senha
-			"/nEstaLogado" + this.EstaLogado
-}
+		    +"\nNome" + this.Nome
+			+"\nCPF" + this.CPF
+			+"\nCelular" + this.Celular
+			+"\nEmail" + this.Email
+			+"\nSenha" + this.Senha
+			+"\nEstaLogado" + this.EstaLogado
+			);
 
+}
 }
