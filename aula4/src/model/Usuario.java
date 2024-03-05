@@ -5,7 +5,11 @@ public class Usuario {
  Email, Senha;
 
  private boolean EstaLogado = false;
- void Usuario (String Nome, String CPF,
+ public Usuario(String nome2, String cPF2, String celular2, String email2, String senha2) {
+	// TODO Auto-generated constructor stub
+}
+
+void Usuario (String Nome, String CPF,
 String Celular, String Email, String Senha) {
 	 this.Nome = Nome;
 	 this.CPF = CPF;
@@ -23,7 +27,7 @@ void Autenticacao(String Email,
 		EstaLogado = true;
 	}
 }
-public String getUsuario() {
+public static String getUsuario() {
 	return (
 		    "/nNome" + this.Nome
 			"/nCPF" + this.CPF
